@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+  
 	 
 	 
 // Slick Slider Script -- Provided by https://kenwheeler.github.io/slick/
