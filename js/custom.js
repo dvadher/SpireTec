@@ -1,6 +1,31 @@
 $(document).ready(function() {
 
+
+  $(".popup-wrapper").css("display", "none");
+setTimeout(function(){
+	$(".popup-wrapper").css("display", "flex");
+},10000);
+
+
+  $("#hide").click(function(){
+    $(".popup-wrapper").css("display", "none");
+  });
+
   
+$('.popup-wrapper-close').click(function() {
+   $('.popup-wrapper').css("display", "none");
+});
+
+
+
+  $(document).on('click', '.contact-fix-btn', function() {
+		$('.contact-cta').addClass('show');
+	});
+
+	$(document).on('click', '.btn-hide', function() {
+		$('.contact-cta').removeClass('show');
+	});
+
   function AddReadMore() {
     //This limit you can set after how much characters you want to show Read More.
     var carLmt = 300;
