@@ -145,7 +145,7 @@ h6 {
 
 /*================================= 4 Global Styles (#glob) =================================*/
 .page-content {
-  padding-top: 108px;
+  padding-top: 111px;
   position: relative;
 }
 .section-spacer{
@@ -253,6 +253,9 @@ button.magnet-button {
 }
 .section_services{
   position:relative;
+  overflow:hidden;
+}
+.top-slider{
   overflow:hidden;
 }
 /* .section_services .owl-stage-outer{
@@ -814,7 +817,12 @@ span.course-line {
 }
 .top-header {
   background: #4881b014;
-  
+  position: relative;
+  transition: all .5s linear 0s;
+}
+.fixed .top-header {
+  margin-top: -69px;
+  transition: all .5s linear 0s;
 }
 .top-header a{
   font-size:12px;
@@ -929,7 +937,7 @@ span.course-line {
 }
 section.counter {
   position: relative;
-  top: -30px;
+  top: 50px;
 }
 .page-content:after {
   content: "";
@@ -2264,8 +2272,25 @@ ul.static-links {
 .row.footer-bottom {
   border-top: 1px solid #FFFFFF2B;
 }
-
-
+.top-slider{
+  height:100vh;
+}
+.top-slider-item img {
+  object-fit: cover;
+  object-position: center;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 100% !important;
+  color: #fff !important;
+}
+ .slick-dots li button::before{
+  font-size: 17px !important;
+  color: #ea771e !important;
+  opacity: 100% !important;
+}
+.slick-dots{
+  bottom: 36px !important;
+}
 
 /*=================================== media query css ===================================*/
 

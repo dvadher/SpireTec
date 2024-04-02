@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 120) {
+        $('.custom_header').addClass('fixed');
+    } else {
+        $('.custom_header').removeClass('fixed');
+    }
+});
 
   $(".popup-wrapper").css("display", "none");
 setTimeout(function(){
@@ -146,6 +153,20 @@ $('.banner-slider').slick({
     ],
 
 });
+$('.top-slider').slick({
+	centerMode: false,
+         autoplay: false,
+    autoplaySpeed: 5000,
+      dots: true,
+        infinite: false,
+        arrows: true,
+        speed: 800,
+        slidesToShow: 1,
+		prevArrow:"<div  class='slick-prev pull-left'>></div>",
+		nextArrow:"<div  class='slick-next pull-right'><</div>",
+        slidesToScroll: 1,
+
+});
 $('.innovative-course').slick({
 	centerMode: false,
          autoplay: false,
@@ -252,8 +273,8 @@ $('.testimonial-slider').slick({
 	});
 
 	$(window).scroll(function() {
-		var navHeight = $('#custom-header').height();
-		var sticky = $('#custom-header');
+		var navHeight = $('.custom_header').height();
+		var sticky = $('.custom_header');
 		if ($(window).scrollTop() > 0) {
 			sticky.addClass("sticky")
 			$('#dashboard-page').css('padding-top', navHeight + "px");
