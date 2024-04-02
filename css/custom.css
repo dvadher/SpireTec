@@ -37,7 +37,7 @@ body {
   color:#151515 !important;
 }
 .text_secondary, .footer_list a:hover{
-  color:#d763ff !important;
+  color:#d4e5f5 !important;
 }
 .bg_primary{
   background-color:#151515;
@@ -267,6 +267,7 @@ button.magnet-button {
   font-weight: 500 !important;
   margin-bottom: 5px;
   font-family: "DM Sans", sans-serif;
+  color: #808080 !important;
 }
 .footer-copyright p {
   font-size: 12px !important;
@@ -1116,6 +1117,7 @@ section.courses .row {
 .footer_heading h5 {
   font-size: 18px;
   font-weight: 800;
+  color: #fff;
 }
 .footer_list i:before {
   font-size: 8px;
@@ -2192,7 +2194,76 @@ button.btn-hide {
   align-items: center;
   justify-content: center;
 }
+.footer_top {
+  padding-top: 100px !important;
+  background: #000;
+}
 
+.footer_top:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://welgo.ai/wp-content/uploads/2024/03/Line-Pattern-foundvest-1.png);
+  opacity: 0.1;
+}
+.footer_top .container {
+  position: relative;
+  z-index: 99;
+}
+.footer-top-menu-list a {
+  border: 1px solid #fff;
+  width: 100% !important;
+  display: block;
+  border-radius: 11px;
+  padding: 15px 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.footer-top-menu-list a:hover {
+  background: #2e4c8e;
+  border-color: #2e4c8e;
+}
+
+a.footer-contact-link svg {
+  width: 14px;
+}
+a.footer-contact-link svg path{
+  fill:#fff;
+}
+a.footer-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #fff;
+  color: #ffff;
+  padding-bottom: 3px;
+}
+.footer_top{
+  position: relative;
+}
+.row.footer-middle-row h4 {
+  font-weight: 700;
+  font-size: 48px;
+}
+ul.static-links li a {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+}
+ul.static-links {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  z-index: 999999999;
+  justify-content: center;
+}
+.row.footer-bottom {
+  border-top: 1px solid #FFFFFF2B;
+}
 
 
 
