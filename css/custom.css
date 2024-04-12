@@ -1165,7 +1165,7 @@ section.courses .row {
   font-size: 12px;
   width: 30px;
   height: 30px;
-  background: #002957;
+  background: #ea771e;
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -2017,7 +2017,7 @@ label.label-heading {
   font-weight: 600;
 }
 .course-sticky {
-  background-color: #002957;
+  background-color: #fff;
   padding: 40px;
   border-radius: 11px;
   border: 1px solid #0000000a;
@@ -2659,8 +2659,17 @@ h3.sidebar-heading {
   flex-direction: column;
   gap: 40px;
 }
-
-
+.course-sticky select {
+  border: 1px solid #ea771e;
+  border-radius: 30px;
+  padding: 12px 20px;
+  height: 45px;
+  width: 100% !important;
+  font-size: 15px;
+}
+.cta-content {
+  background: #002957;
+}
 
 /*=================================== media query css ===================================*/
 
