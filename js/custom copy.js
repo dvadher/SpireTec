@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+// In your Javascript (external .js resource or <script> tag)
+
+
+  $('.select2').select2();
 
   $('.js-anchor-link').click(function(e){
     e.preventDefault();
@@ -492,5 +496,6 @@ $('.testimonial-slider').slick({
 	});
 
 	
+  
 
 }); /*====================== all js end ====================== */
