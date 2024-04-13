@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+  $('.resume-form').on('click', function () {
+    $('#nameid').focus();
+});
 
   $('.js-anchor-link').click(function(e){
     e.preventDefault();

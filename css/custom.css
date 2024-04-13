@@ -2018,7 +2018,7 @@ label.label-heading {
 }
 .course-sticky {
   background-color: #fff;
-  padding: 40px;
+  padding: 100px 40px;
   border-radius: 11px;
   border: 1px solid #0000000a;
   position: relative;
@@ -2488,15 +2488,15 @@ section.testimonial .slick-prev, section.testimonial .slick-next
   max-width: 800px;
   margin: 1.75rem auto;
 }
-form.enroll-form input, form.enroll-form textarea {
+form.enroll-form input, form.enroll-form textarea, .contact-form input, .contact-form textarea {
   border: 1px solid #e1e1e1;
   border-radius: 6px;
   padding: 20px 20px;
 } 
-.enroll select{
+select{
   width:100%;
 }
-.enroll select {
+select {
   width: 100%;
   font-size: 14px;
   height: 58px;
@@ -2651,10 +2651,10 @@ h3.sidebar-heading {
   flex-direction: column;
   gap: 20px;
 }
-.services-detail-rich-box h2 {
+.services-detail-rich-box h2, .contact-detail-rich-box h2 {
   font-size: 24px;
 }
-.services-detail-rich-text {
+.services-detail-rich-text, .contact-detail-rich-text {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -2670,6 +2670,84 @@ h3.sidebar-heading {
 .cta-content {
   background: #002957;
 }
+section.breadcrumb {
+  background-image: url(https://eduma.thimpress.com/demo-learning-platform/wp-content/uploads/sites/101/2024/03/home-hero-section.png);
+  background-size: cover;
+  height:400px;
+  background-position: top;
+  display: flex;
+  align-items: center;
+}
+.contact-detail-icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background: #00295742;
+  border-radius: 100%;
+  padding: 21px;
+}
+.contact-detail-icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background: #002957;
+  border-radius: 100%;
+  padding: 10px;
+}
+.contact-detail-wrap {
+  box-shadow: 0 -1px 8px 3px rgb(34 40 30 / 8%);
+  padding: 40px;
+  border-radius: 11px;
+  background: #fff;
+}
+section.contact-detail-wrapper {
+  position: relative;
+  bottom: 60px;
+}
+.contact-wrapper {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  padding: 40px;
+  border-radius: 21px;
+  margin-right: 40px;
+}
+.cta-content{
+background-image:url(../images/home-hero-section.png);
+}
+
+.contact-form label {
+  font-size: 15px;
+}
+.contact-detail-rich-box ul li {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+.contact-detail-rich-box ul li:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #002957;
+  left: -17px;
+  transform: rotate(45deg);
+  top: 13px;
+}
+.contact-detail-rich-box ul {
+  padding-left: 25px;
+  margin-top: 30px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.contact-detail-rich-box ul{
+  gap: 8px;
+}
+
+
+
+
 
 /*=================================== media query css ===================================*/
 
