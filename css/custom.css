@@ -939,7 +939,7 @@ section.counter {
   position: relative;
   top: 50px;
 }
-.page-content:after {
+/* .page-content:after {
   content: "";
   position: absolute;
   width: 86.6vw;
@@ -949,7 +949,7 @@ section.counter {
   top: 0;
   background-size: 100%;
   z-index: -1;
-}
+} */
 .baner-content {
   position: relative;
   z-index: 99;
@@ -1149,9 +1149,7 @@ section.courses .row {
   gap: 15px;
 }
 .cta {
-  position: relative;
-  top: 35px;
-  z-index: 9;
+ margin-bottom: 80px;
 }
 .footer_top {
   padding-top: 100px !important;
@@ -1366,7 +1364,12 @@ button.video i {
 }
 .bg-blue{
   background-color:#114fbe;
-}button.close {
+}
+.count_up{
+  background: #002957;
+}
+
+button.close {
   position: absolute;
   top: 4px;
   right: 10px;
@@ -1400,8 +1403,8 @@ button.video i {
   padding: 40px;
 }.award-im-wrapper {
   box-sizing: content-box;
-  padding: 30px;
-  height: 400px;
+  padding: 15px;
+  height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
@@ -2022,7 +2025,7 @@ label.label-heading {
 }
 .course-sticky {
   background-color: #fff;
-  padding: 100px 40px;
+  padding: 30px;
   border-radius: 11px;
   border: 1px solid #0000000a;
   position: relative;
@@ -2176,7 +2179,7 @@ button.btn-hide {
   letter-spacing: 0.1em !important;
 }
 .popup-wrapper-content {
-  width: 538px;
+  width: 500px;
   margin: 0 auto;
 }
 .popup-wrapper {
@@ -2924,6 +2927,102 @@ a.footer-brand img {
   min-width: 16.25rem;
 }
 
+.service-detail-icon {
+  width: 100px;
+  height: 100px;
+}
+.service-detail-icon img {
+  width: 100%;
+  height: 100%;
+}
+.service-detail-icon h6{
+  font-size: 18px;
+}
+.services-detail-why-wrapper {
+  box-shadow: 0 0 8px 3px #22281e14;
+  padding: 30px;
+  background: #fff;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-detail-why-wrapper h6 {
+  font-size: 23px;
+  line-height: 120%;
+}
+.service-detail-why .row {
+  gap: 15px 0px;
+  border-radius:16px;
+}
+a.navbar-nav-link.is-highlight {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #002957;
+  color: #fff !important;
+}
+.is_download .modal-dialog {
+  max-width: 400px;
+}
+input.btn-v2.btn-submit:hover{
+  color: #002957;
+}
+.award-item-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.award-item {
+  width: 18%;
+}
+section.count_up.section-spacer {
+  overflow: hidden;
+}
+.wtsp_chat {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 100px;
+  left: 30px;
+  z-index: 9999;
+}
+.social_icon a {
+  background: #ea771e;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.social_icon a:hover{
+  background-color: #002957;
+}
+.social_icon {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.Course-ind-listing .all-course-liting .row {
+  gap: 20px 0px;
+}
+.Course-ind-listing .course-listing-item {
+  padding: 30px;
+}
+.Course-ind-listing .course-listing-item h6 {
+  font-size: 19px !important;
+}
+.Course-ind-listing .course-list-time span {
+  font-size: 14px;
+  color: #ea771e;
+}
 
 /*=================================== media query css ===================================*/
 
