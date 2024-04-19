@@ -3214,6 +3214,21 @@ i.fa.fa-bars {
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .service-detail-why h2 {
+      font-size: 25px;
+  }
+  .services-detail-why-wrapper{
+    padding: 15px;
+    height: 100%;
+  }
+  .services-detail-why-wrapper h6 {
+    font-size: 18px;
+    line-height: 120%;
+}
+.services-detail-rich-box h2, .contact-detail-rich-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
     .wtsp_chat {
       width: 30px;
       height: 30px;
