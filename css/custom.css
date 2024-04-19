@@ -3211,6 +3211,12 @@ section.count_up.section-spacer {
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .cta-in_content {
+      width: 100% !important;
+  }
+    .ready_text {
+      text-align: center;
+  }
     ul.dropdown-menu li a {
       font-size: 12px !important;
       padding: 5px !important;
@@ -3426,7 +3432,9 @@ a.footer-brand img {
   }
   .cta input.btn-v2{
     border-radius: 30px;
-    right:0px
+    right:0px;
+    margin: 0 auto;
+
   }
     .section-count-item h3{
       font-size: 30px;
