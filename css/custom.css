@@ -3211,6 +3211,15 @@ section.count_up.section-spacer {
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .wtsp_chat {
+      width: 30px;
+      height: 30px;
+      bottom: 30px;
+      left: 0;
+  }
+  section.testimonial {
+    overflow: hidden;
+}
     .cta-in_content {
       width: 100% !important;
   }
