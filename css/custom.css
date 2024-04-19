@@ -3211,6 +3211,11 @@ section.count_up.section-spacer {
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    ul.dropdown-menu li a {
+      font-size: 12px !important;
+      padding: 5px !important;
+  }
+  
     /* .blog-detail .col-md-4 {
       order: 2;
   } */
@@ -3693,7 +3698,7 @@ a.navbar-nav-link.all-course {
   }
   button.navbar-toggler i {
     position: absolute;
-    top: 25px;
+    top: 16px;
     right: 18px;
 }
     i.fa.fa-times {
@@ -3707,7 +3712,7 @@ a.navbar-nav-link.all-course {
       width: 100%;
       margin: 0 !important;
       padding: 15px 0px !important;
-      font-size: 8px !important;
+      font-size: 12px !important;
       gap: 4px;
     }
     .navbar-collapse{
