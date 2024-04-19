@@ -2318,7 +2318,7 @@ ul.static-links {
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3196,11 +3196,158 @@ section.count_up.section-spacer {
 .custom_header a.course-listing-item:after{
   display:none;
 }
-
+.schedule-wrapper-header h6 {
+  font-size: 20px;
+}
+.row.become_trainer form {
+  box-sizing: content-box;
+  padding: 30px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+  background: #fff;
+  border-radius: 15px;
+}
 /*=================================== media query css ===================================*/
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    /* .blog-detail .col-md-4 {
+      order: 2;
+  } */
+  .col-md-8.blog-rich-col {
+    order: 1;
+}
+.recent-post-item .row {
+  gap: 10px;
+}
+.blog-sidebar-col{
+  order: 2;
+}
+    .author-box {
+      margin-bottom: 20px;
+  }
+    .course-title p {
+      white-space: pre-line;
+      text-align: left;
+  }
+    .check-list-item {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      justify-content: flex-start !important;
+      align-items: flex-start;
+  }
+  .btn-v2{
+    height: 40px; 
+  }
+  .req-panel {
+    padding: 10px;
+}
+.req-panel .nav-link{
+  padding: 4px 30px;
+}
+.req-header h4{
+  font-size: 23px;
+}
+.course-info-header .nav.nav-tabs {
+  justify-content: center;
+}
+.course-info-header .btn-v2{
+  margin: 0 auto;
+}
+    .schedule-wrapper-header {
+      text-align: center;
+  }
+  .schedule-wrapper-header .flex {
+    gap: 15px;
+    justify-content: center;
+}
+    .course-menu-listing li a{
+      font-size: 13px;
+      padding: 3px 15px;
+      white-space: nowrap;
+    }
+    .course-menu-listing ul{
+      gap: 10px;
+    }
+    .course-time-flex {
+      gap: 20px;
+      flex-direction: column;
+  }
+  .course-time-detail-right {
+    justify-content: flex-start !important;
+    margin-top: 10px;
+}
+.course-detail-wrapper h2 {
+  font-size: 25px;
+  line-height: 130%;
+}
+.course-menu-listing ul {
+  overflow-x: scroll;
+}
+    .course-time-detail-row{
+      padding: 20px;
+    }
+    section.course-listing-job .nav-link{
+      padding: 15px 5px;
+      font-size: 11px;
+    }
+    button.close{
+      padding: 13px !important;
+    }
+    
+    .modal-content{
+      margin: 10px;
+    }
+    .modal_footer{
+      text-align: center;
+    }
+    .modal_footer .row {
+      gap: 15px;
+  }
+  .calender_wrapper {
+    margin-top: 20px !important;
+}
+.contact-detail-wrap .row {
+  gap: 20px;
+}
+.contact-wrapper{
+  margin-right: 0;
+  padding: 20px;
+}
+.section-contact .row {
+  gap: 40px;
+}
+    section.breadcrumb{
+      height: 260px;
+      background-position:left;
+    }
+    section.breadcrumb {
+      margin-top: 121px;
+  }
+    .client-logo-item img {
+      width: 131px;
+  }
+    .client-logo-item{
+      padding: 20px;
+    }
+    section.company-overview-step .row {
+      gap: 20px;
+  }
+  .certificate-im-wrapper{
+    margin: 0;
+  }
+  .certificate-row{
+    gap: 10px;
+    align-items: baseline;
+  }
+    iframe {
+      width: 100% !important;
+  }
+    .sidebar-shadow-wrapper{
+      padding: 15px;
+    }
+    
     .course-content {
       margin-top: 15px;
       padding: 0px 20px 00px;
@@ -3582,6 +3729,59 @@ a.navbar-nav-link.all-course {
   }
   }
   @media only screen and (min-width: 768px) and (max-width:1024px) {
+    .feeadback-wrapper .row {
+      gap: 22px 0px;
+  }
+    .course-menu-listing li a {
+      font-size: 13px;
+      padding: 3px 15px;
+      white-space: nowrap;
+  }
+  .course-menu-listing ul {
+    overflow-x: scroll;
+}
+    .btn-v2{
+      padding: 8px 20px;
+    }
+    .course-time-flex {
+      gap: 20px;
+      flex-direction: column;
+  }
+    .contact-wrapper{
+      margin-right:0px;
+      padding: 20px;
+    }
+    .contact-detail-wrap{
+      padding: 20px;
+    }
+    .contact-detail-content h5 {
+      font-size: 15px;
+      line-height: 100%;
+  }
+  .contact-detail-wrapper-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+    .client-logo-item{
+      padding: 20px;
+    }
+    .services-sidebar-listing-im-wrapper {
+      width: 100%;
+      border-radius: 11px;
+      height: 119px;
+  }
+  section.breadcrumb.course{
+    padding-top: 70px;
+  }
+  .breadcrumb-content h1{
+    font-size: 30px;
+  }
+    .sidebar-shadow-wrapper{
+      padding: 15px;
+    }
     .footer-middle-row {
       width: 90%;
       margin: 0 auto;
