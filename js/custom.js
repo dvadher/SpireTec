@@ -192,14 +192,14 @@ $('.banner-slider').slick({
       {
         breakpoint: 991,
         settings: {
-           slidesToShow:  1,
+           slidesToShow:  2.1,
            centerMode: false,
         }
       },
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.1,
            centerMode: false,
         }
       }
@@ -236,14 +236,14 @@ $('.innovative-course').slick({
       {
         breakpoint: 991,
         settings: {
-           slidesToShow:  1,
+           slidesToShow:  2.1,
            centerMode: false,
         }
       },
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.1,
            centerMode: false,
         }
       }
@@ -266,14 +266,14 @@ $('.testimonial-slider').slick({
       {
         breakpoint: 991,
         settings: {
-           slidesToShow:  1,
+           slidesToShow:  2.1,
            centerMode: false,
         }
       },
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.1,
            centerMode: false,
         }
       }

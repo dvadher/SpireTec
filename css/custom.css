@@ -3193,10 +3193,293 @@ section.count_up.section-spacer {
 .modal_footer-detail img {
   width: 18px;
 }
+.custom_header a.course-listing-item:after{
+  display:none;
+}
+
 /*=================================== media query css ===================================*/
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .course-content {
+      margin-top: 15px;
+      padding: 0px 20px 00px;
+  }
+  .contact-fix-block h6{
+    text-align: left;
+  }
+  .contact-fix-block {
+    padding: 20px;
+}
+    .footer_top {
+      padding: 30px 0px !important;
+  }
+  .footer-top-menu-list {
+    order: 2;
+}
+.row.footer-middle-row {
+  order: 1;
+}
+.row.footer-bottom {
+  order: 3;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px !important;
+}
+.footer-bottom-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .footer-top-menu-list .row {
+    gap: 15px 0px;
+}
+a.footer-brand img {
+  width: 100px !important;
+  margin-bottom: 10px;
+}
+.row.footer-middle-row h4 {
+  font-size: 30px;
+}
+.row.footer-middle-row {
+  gap: 40px;
+  padding-bottom: 0 !important;
+}
+.footer_heading h5{
+  font-size: 15px;
+}
+.row.footer-middle-row .col-md-5 {
+  text-align: center;
+}
+.social_icon {
+  gap: 10px;
+  justify-content: center;
+}
+  .footer-top-menu-list a{
+    padding: 10px 10px;
+  }
+    .course-sticky{
+      padding: 20px;
+    }
+    .cta .form-group {
+      margin-bottom: 10px;
+  }
+  .footer_top .container {
+    display: flex;
+    flex-direction: column;
+}
+  .course-sticky input, .course-sticky textarea{
+    padding: 0px 20px;
+    height: 35px;
+  }
+  .cta input.btn-v2{
+    border-radius: 30px;
+    right:0px
+  }
+    .section-count-item h3{
+      font-size: 30px;
+      margin-top: 10px;
+    }
+    button.btn-speak{
+      height: 200px;
+    }
+    br {
+      display: none;
+  }
+    section.count_up .row {
+      gap: 20px 0px;
+  }
+    .testimonial-item{
+      padding: 20px;
+    }
+    .award-item {
+      width: 25%;
+  }
+  .award-item-row
+  {
+    justify-content: center;
+    gap: 10px;
+  }
+  .award-im-wrapper{
+    height: 75px;
+    padding: 5px;
+  }
+    .partner-logo-item{
+      width: 28%;
+      padding: 7px;
+    }
+    .partner-logo{
+      gap: 10px;
+    }
+    section.courses .section-heading,
+     section.testimonial .section-heading, 
+     section.innovative-courses.section-spacer 
+     .section-heading{
+      margin-bottom: 81px;
+  }
+  .slick-next {
+    right: 18px !important;
+}
+  .slick-prev {
+    right: 63px !important;
+}
+section.oure_clients {
+  padding: 30px 0px;
+}
+section.leran-option .row {
+  gap: 20px;
+}
+.learn-item{
+  margin: 10px;
+}
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+  }
+    .section-heading h2{
+      font-size: 30px;
+    }
+    .section-heading {
+      margin-bottom: 40px;
+  }
+    .custom-header-menu-wrapper {
+      padding: 10px 0px !important;
+  }
+  .fixed .top-header{
+    margin-top: -88px;
+  }
+  .about-view{
+    position: relative;
+    bottom: 41px;
+    background: #fff;
+  }
+  section.about {
+    margin-top: 20px !important;
+}
+    .dropdown-content{
+      top: 107px;
+    }
+    .btn-v2{
+      padding: 1px 20px;
+    font-size: 12px;
+    }
+    .drop-button-wrapper {
+      margin-top: 20px !important;
+  }
+    ::-webkit-scrollbar {
+      width: 3px;
+      height: 10px;
+      }
+      ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 10px #fff;
+      }
+      ::-webkit-scrollbar-thumb {
+      background:#002957;
+      box-shadow: inset 0 0 6px #002957;
+      }
+      
+    a.course-listing-item{
+      padding: 15px;
+    }
+    .dropdown-content .col-5.col-lg-3 {
+      padding-right: 0;
+  }
+  .custom_header .tab-content .row {
+    gap: 5px 0px;
+}
+.all-course-liting {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+    .course-list-time span {
+      font-size: 10px;
+  }
+  .dropdown-content .nav-pills.flex-column .nav-link{
+    padding: 10px 10px !important;
+    font-size: 8px;
+  }
+  .course-dropdown .tab-content {
+    padding: 10px;
+}
+.dropdown-content .col-7.col-lg-9 {
+  padding-left: 0;
+}
+    .nav-search input {
+      font-size: 11ppx;
+    }
+    
+    .nav-search input::-ms-input-placeholder { /* Edge 12-18 */
+        font-size: 11px;
+    }
+    
+    .nav-search input::placeholder {
+        font-size: 11px;
+    }
+    .top-header-menu{
+      gap: 7px;
+      flex-direction: column;
+    }
+    .top-header-menu h2 {
+      font-size: 12px;
+  }
+  .logo_heading img {
+    width: 100px;
+}
+.custom-header-nav-left {
+  flex-direction: column;
+}
+.contact-fix-btn p{
+  font-size: 10px !important;    
+
+}
+.contact-fix-btn{
+  padding: 5px !important;
+}
+.contact-cta {
+  right: -44px;
+  top: 400px;
+}
+.contact-fix-btn img {
+  width: 15px;
+}
+.nav-search{
+  
+  width: 100%;
+  height: 30px !important;
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  float: none;
+  min-width: 100%;
+  text-align: center;
+}
+.nav-search input{
+  font-size: 11px;
+  position: absolute;
+    height: 30px;
+}
+li.nav-item.float-left.course-dropdown {
+  /* position: absolute; */
+  top: 12px;
+  right: 72px;
+  height: 100%;
+}
+.custom-header-nav-left {
+  display: block !important;
+  width: 100%;
+}
+.nav-search button.icon{
+  width: 30px;
+  height: 30px;
+  top: 0;
+  padding: 10px;
+}
+a.navbar-nav-link.all-course {
+  font-size: 9px !important;
+  margin: -10px;
+}
+
     .calender_wrapper table td:first-child{
       display: flex;
       justify-content: space-between !important;
@@ -3277,6 +3560,8 @@ section.count_up.section-spacer {
       width: 100%;
       margin: 0 !important;
       padding: 15px 0px !important;
+      font-size: 8px !important;
+      gap: 4px;
     }
     .navbar-collapse{
       text-align: center;
@@ -3291,13 +3576,114 @@ section.count_up.section-spacer {
   }
   .sub-heading{
     font-size: 18px;
-    padding-bottom: 15px;
+    padding-bottom:0px;
+    font-size: 9px !important;
+    margin-bottom: 5px !important;
   }
   }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   
+  @media only screen and (min-width: 768px) and (max-width:1024px) {
+    .footer-middle-row {
+      width: 90%;
+      margin: 0 auto;
   }
-  @media only screen and (min-width: 991px) and (max-width: 1024px) {
+    section.testimonial {
+      overflow: hidden;
+  }
+    .nav-serach-course {
+      width: 400px;
+  }
+  ul.main-menu {
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  float: none;
+  min-width: 100%;
+  text-align: center;
+}
+.custom_header li.nav-item{
+  width: 100%;
+}
+.custom_header li.nav-item{
+  justify-content: center;
+}
+  a.navbar-nav-link.all-course{
+    margin: 0;
+  }
+    .custom-header-nav-left {
+      justify-content: space-between;
+  }
+  .custom-header-nav-left {
+    width: 100%;
+}
+.custom-header-nav-left button.navbar-toggler {
+    order: 3;
+}
+    section.leran-option .row, section.leran-option .row {
+      gap: 20px 0px;
+  }
+  .nav-search{
+    width: 100%;
+  }
+    .row.footer-middle-row {
+      gap: 40px 0px;
+  }
+  a.course-listing-item{
+    padding: 10px 10px 10px 10px;
+  }
+  span.course-line{
+    display: none;
+  }
+  .course-list-time {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+    align-items: flex-start;
+}
+  .ready_text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .award-item {
+      width: 28%;
+  }
+  .award-item-row {
+    justify-content: center;
+}
+    .banner-view-left{
+      gap: 8px;
+    flex-direction: column;
+    }
+    .section-heading h2{
+      font-size: 35px;
+    }
+
+    .about-im-wrapper {
+      height: 197px;
+  }
+  section.courses .section-heading,
+     section.testimonial .section-heading, 
+     section.innovative-courses.section-spacer 
+     .section-heading{
+      margin-bottom: 81px;
+  }
+  .slick-next {
+    right: 18px !important;
+}
+  .slick-prev {
+    right: 63px !important;
+}
+
+
+
+
+
 
   }
 
