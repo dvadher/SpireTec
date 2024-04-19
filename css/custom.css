@@ -3214,6 +3214,9 @@ i.fa.fa-bars {
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .shadow-box{
+      padding: 20px;
+    }
     .contact_pg.section-contact .row {
       gap: 0 !important;
   }
