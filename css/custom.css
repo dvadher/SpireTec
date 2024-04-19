@@ -3207,6 +3207,9 @@ section.count_up.section-spacer {
   background: #fff;
   border-radius: 15px;
 }
+i.fa.fa-bars {
+  color: #002957 !important;
+}
 /*=================================== media query css ===================================*/
 
 
