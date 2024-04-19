@@ -2492,7 +2492,7 @@ section.testimonial .slick-prev, section.testimonial .slick-next
   display: table;
 }
 .enroll .modal-dialog {
-  max-width: 800px;
+  max-width: 560px;
   margin: 1.75rem auto;
 }
 form.enroll-form input, form.enroll-form textarea, .contact-form input, .contact-form textarea {
@@ -3023,11 +3023,191 @@ section.count_up.section-spacer {
   font-size: 14px;
   color: #ea771e;
 }
+.calender_wrapper .nav-item {
+  padding: 9px 15px;
+  display: inline-block;
+  border-radius: 3px 3px 0 0;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  transition: all linear .15s;
+  background-color: #002957;
+  cursor: pointer;
+  color: #fff !important;
+  position: relative;
+}
+.calender_wrapper .nav-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start !important;
+  gap: 20px;
+}
+.calender_wrapper .nav-item.nav-link.active{
+  background: #ea771e;
+}
 
+.calender_wrapper .nav-item.nav-link:after {
+  content: "";
+  width: 19px;
+  display: flex;
+  flex-direction: column;
+  height: 11px;
+  -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  position: absolute;
+  bottom: -17px;
+  transform: rotate(180deg);
+  background: #ea771e;
+  opacity: 0;
+}
+.calender_wrapper .nav-item.nav-link.active:after{
+  opacity: 1;
+}
+
+.calender_wrapper table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.calender_wrapper table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+.calender_wrapper table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+.calender_wrapper table th,
+.calender_wrapper table td {
+  padding: .625em;
+  text-align: center;
+}
+
+.calender_wrapper table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .calender_wrapper table {
+    border: 0;
+  }
+
+  .calender_wrapper table caption {
+    font-size: 1.3em;
+  }
+  
+  .calender_wrapper table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .calender_wrapper table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  .calender_wrapper table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  .calender_wrapper table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .calender_wrapper table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+.calender_wrapper table th {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 11px !important;
+}
+.calender_wrapper table td {
+  font-size: 14px;
+}
+.calender_wrapper table td:first-child {
+  text-align: left;
+  color: #000 !important;
+}
+.calender_wrapper table td {
+  font-size: 14px;
+  line-height: 150%;
+}
+.calender_wrapper table td a{
+  color:#000
+}
+.btn_training_cal {
+  background: #022b58;
+  color: #fff !important;
+  padding: 5PX 10PX;
+  border-radius: 5PX;
+  cursor: pointer;
+}
+.modal_footer-detail a{
+  color:#fff !important;
+}
+.modal_footer {
+  background: #eb592a;
+  color: #fff !important;
+  padding: 20px;
+}
+.modal_footer-detail {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: end;
+}
+.modal_footer-detail i {
+  font-size: 14px;
+}
+.modal_footer-detail img {
+  width: 18px;
+}
 /*=================================== media query css ===================================*/
 
 
-  @media only screen and (min-width: 300px) and (max-width: 767px) {    
+  @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .calender_wrapper table td:first-child{
+      display: flex;
+      justify-content: space-between !important;
+    }
+    .calender_wrapper table td a {
+      text-align: right;
+  }
+    .calender_wrapper table td{
+      width: 100%;
+      font-size: 11px;
+    }   
     .work_content_right_content{
       position: unset;
     }
