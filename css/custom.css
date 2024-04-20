@@ -120,6 +120,10 @@ h6 {
   font-size: 14px !important;
   line-height: 120%;
 }
+.font-tiny{
+  font-size: 12px !important;
+  line-height: 120%;
+}
   /* heading css */
   p:last-child{
 	margin-bottom:0px;
@@ -257,13 +261,18 @@ button.magnet-button {
 .footer_top, .footer-copyright {
   border-top: 1px solid #e1e1e1;
 }
-.footer_list a{
+.footer_list a, .footer-detail{
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 500 !important;
   margin-bottom: 5px;
   font-family: "DM Sans", sans-serif;
   color: #808080 !important;
+}
+.footer_top .cta-content {
+  background: none;
+  padding: 0 !important;
+  width: 90%;
 }
 .footer-copyright p {
   font-size: 12px !important;
@@ -787,6 +796,7 @@ a.btn-v1 {
 }
 .course-dropdown .tab-content {
   padding: 30px 30px 30px 0px;
+  height: 100%;
 }
 a.navbar-nav-link.all-course {
   background: #002957;
@@ -867,11 +877,18 @@ span.course-line {
   100% {transform: translatex(-1000%)}
 }
 
-.slider  img {
-  width: 100px;
-  height: 100px;
+.slider img {
+  width: 208px;
+  height: 101px;
   animation: scroll 20s linear infinite;
   object-fit: contain;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1dedc;
+  border-radius: 11px;
+  padding: 20px;
 }
 .slide-logo-heading h6 {
   font-size: 18px;
@@ -881,7 +898,7 @@ span.course-line {
   position: relative;
 }
 
-.slider:after {
+/* .slider:after {
   content: "";
   position: absolute;
   width: 200px;
@@ -898,8 +915,8 @@ span.course-line {
   right: 0;
   top: 0;
   background: linear-gradient(to left, transparent, #ffffff) no-repeat bottom;
-}
-.slider:before {
+} */
+/* .slider:before {
   content: "";
   position: absolute;
   width: 200px;
@@ -908,7 +925,7 @@ span.course-line {
   top: 0;
   background: linear-gradient(to left, #ffffff, #ffffff00) no-repeat bottom;
   z-index: 999;
-}
+} */
 .section-count-item p {
   color: #71819f;
 }
@@ -2112,22 +2129,22 @@ cursor: pointer;
 }
 
 .contact-fixed-content a {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   font-weight: 700;
 }.contact-fix-block h6 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 .contact-fix-block{
   -webkit-box-shadow: 0 0 20px 0 rgba(0,12,105,.1);
   box-shadow: 0 0 20px 0 rgba(0,12,105,.1);
   background-color: #fff;
   border-top-left-radius: 10px;
-  padding: 30px;
+  padding: 20px;
   transform: translateX(150%);
   position: absolute !important;
-  width: 310px;
+  width: 340px;
   right: 53px;
   z-index: 9;
   -moz-transition: all .5s;
@@ -2139,9 +2156,13 @@ cursor: pointer;
   box-shadow: -1px 4px 5px 1px rgba(20, 14, 20, .11);
   border-radius: 11px;
 }
+.contact-fixed-content a {
+  font-size: 13px;
+  line-height: 100%;
+}
 .contact-fix-block img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 .contact-fix-btn{
     
@@ -2952,7 +2973,7 @@ a.footer-brand img {
 }
 
 .services-detail-why-wrapper h6 {
-  font-size: 23px;
+  font-size: 16px;
   line-height: 120%;
 }
 .service-detail-why .row {
@@ -2964,7 +2985,7 @@ a.navbar-nav-link.is-highlight {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #002957;
+  background: #ea771e;
   color: #fff !important;
 }
 .is_download .modal-dialog {
@@ -3210,10 +3231,69 @@ section.count_up.section-spacer {
 i.fa.fa-bars {
   color: #002957 !important;
 }
+.drop-button-wrapper {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+.drop-button-wrapper .btn-v2{
+  padding: 8px 30px;
+}
+.contact-fixed-content a {
+  font-size: 13px;
+}
+
+.learn-im-wrapper img {
+position: relative;
+top:0px;
+  transition: all .4s ease-in-out;
+}
+.learn-item:hover .learn-im-wrapper img {
+  top:10px;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.achivement .tz-gallery a.lightbox{
+  height: 100%;
+}
+.achivement .tz-gallery .lightbox img{
+  height: 100%;
+}
+.section-count-item h3 {
+  position: relative;
+}
+.section-count-item h3:after {
+  content: "+";
+}
+
+.footer_top .cta-content .btn-v2 {
+  position: absolute;
+right: 0;
+height: 100%;
+border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.contact-fixed-content {
+  text-align: left;
+}
+.service-detail-why h2 {
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
 /*=================================== media query css ===================================*/
 
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .footer_top .cta-content{
+      width:100%;
+    }
     .shadow-box{
       padding: 20px;
     }
@@ -3228,7 +3308,7 @@ i.fa.fa-bars {
     height: 100%;
   }
   .services-detail-why-wrapper h6 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 120%;
 }
 .services-detail-rich-box h2, .contact-detail-rich-box h2 {
